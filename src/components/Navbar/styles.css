@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1rem 3rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+nav > div > button {
+  background-color: transparent;
+  border: none;
+}
+
+nav > div > button :hover {
+  scale: 1.05;
+}
+
+.navLinks a {
+  margin-inline: 1rem;
+}
+
+.navLinks,
+.navButtons {
+  display: flex;
+  align-items: center;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+}

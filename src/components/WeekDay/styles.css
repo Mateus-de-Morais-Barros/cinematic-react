@@ -1,0 +1,22 @@
+.weekDaysContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 30px var(--BackGroundGlow);
+  margin-block: 3rem;
+}
+
+.weekDay {
+  font-family: var(--fontWorkSans);
+  justify-content: center;
+  align-items: center;
+}
+
+.weekDay p {
+  text-align: center;
+}
+
+.weekDay :nth-child(1) {
+  font-weight: 800;
+}

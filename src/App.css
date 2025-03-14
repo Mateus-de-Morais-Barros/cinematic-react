@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --Gray-100: #dad8dc;
+  --Gray-700: #2b282d;
+  --Primary: #0e0d0f;
+  --Brand-200: #d3aef6;
+  --Yellow: #ffd600;
+  --BackGroundGlow: #2c358a56;
+  --fontRubik: "Rubik";
+  --fontInter: "Inter";
+  --fontWorkSans: "Work Sans";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--Primary);
+  color: var(--Gray-100);
+  overflow-x: hidden;
+  font-family: var(--fontInter);
+}

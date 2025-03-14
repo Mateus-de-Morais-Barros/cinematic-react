@@ -1,0 +1,29 @@
+.upcomingCard {
+  margin-right: 2%;
+}
+
+.upcomingCard > p {
+  font-weight: 800;
+}
+
+.upcomingCard > img {
+  border-radius: 8px;
+  position: relative;
+  height: 10rem;
+  width: 20rem;
+}
+
+.upcomingCard span {
+  display: flex;
+}
+
+.upcomingCard span img {
+  width: auto;
+  height: 1rem;
+  margin-block: auto;
+  margin-right: 0.2rem;
+}
+
+.upcomingCard span p {
+  font-size: 0.9rem;
+}

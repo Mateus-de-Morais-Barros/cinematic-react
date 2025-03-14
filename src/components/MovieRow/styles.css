@@ -1,0 +1,60 @@
+.movieRow {
+  display: flex;
+  width: 100%;
+  /* max-height: 30rem; */
+  margin-block: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--Gray-700);
+  margin-bottom: 3rem;
+}
+
+.movieRow > img {
+  width: 10rem;
+  margin-right: 2rem;
+  margin-bottom: auto;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+.movieRow h2 {
+  margin: 0;
+}
+
+.movieRow .tagContainer {
+  gap: 1rem;
+}
+
+.movieRow > div {
+  width: 100%;
+}
+
+.rateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.yellowText {
+  color: var(--Yellow);
+  font-weight: 500;
+  font-family: var(--fontRubik);
+}
+
+.timeButtonContainer {
+  display: flex;
+  width: 100%;
+  margin-block: 1rem;
+  gap: 2rem;
+}
+
+.timeButton {
+  background-color: transparent;
+  border: 1px solid var(--Brand-200);
+  border-radius: 8px;
+  color: var(--Brand-200);
+  font-family: var(--fontRubik);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}

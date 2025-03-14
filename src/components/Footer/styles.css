@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+  border-top: 1px solid var(--Gray-700);
+  width: 80%;
+  margin: auto;
+}
+
+footer > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div :nth-child(2) {
+  display: flex;
+  gap: 3rem;
+}
+
+footer > div :nth-child(3) {
+  display: flex;
+  gap: 1rem;
+}
