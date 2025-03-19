@@ -1,0 +1,3 @@
+export const BASE_URL = "https://api.themoviedb.org";
+export const TOKEN =  "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZmU2YmM2MDRkMmY0ZjhhMDE0ZDU1ZGRlMTkzOTZjYyIsIm5iZiI6MTczNjU4Nzc1OS45NCwic3ViIjoiNjc4MjM5ZWY2MDU2NTg2ZjZjNGU3MTg3Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.Kb27n8pLx5hyR-eO4qfUL5uXicNLQRJHleP9LHU3P_Q";
+

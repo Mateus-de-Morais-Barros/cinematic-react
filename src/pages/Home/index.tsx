@@ -35,15 +35,15 @@ const Home = () => {
       <section className="showtime">
         <h2>Featured Movies Showtime</h2>
         <div className="weekDaysContainer">
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
-          <WeekDay />
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
+          <WeekDay name="Fri" date="09/05"/>
         </div>
         <div className="moviesContainer">
           <MovieRow />

@@ -1,11 +1,16 @@
 import "../../App.css";
 import "./styles.css";
 
-const WeekDay = () => {
+type Props = {
+  name: string;
+  date: string;
+};
+
+const WeekDay = ({ name, date }: Props) => {
   return (
     <div className="weekDay">
-      <p>Fri</p>
-      <p>9/15</p>
+      <p>{name}</p>
+      <p>{date}</p>
     </div>
   );
 };
